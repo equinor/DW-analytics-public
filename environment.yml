@@ -1,17 +1,10 @@
-name: example-environment
+name: dw-data-env
 channels:
   - conda-forge
 dependencies:
   - tqdm
   - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
   - pandas
-  - partd
-  - bokeh
-  - dask
   - requests
   - pip:
     - azure-kusto-data
