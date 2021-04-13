@@ -2,6 +2,7 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
+  - tqdm
   - numpy
   - psutil
   - toolz
@@ -11,3 +12,7 @@ dependencies:
   - partd
   - bokeh
   - dask
+  - requests
+  - pip:
+    - azure-kusto-data
+    - azure-kusto-ingest
